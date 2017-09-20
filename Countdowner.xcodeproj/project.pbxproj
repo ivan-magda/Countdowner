@@ -150,12 +150,10 @@
 		7559B2511D351B1A0073328B /* Countdowner */ = {
 			isa = PBXGroup;
 			children = (
-				7559B2521D351B1A0073328B /* AppDelegate.swift */,
-				7559B2541D351B1A0073328B /* ViewController.swift */,
-				7559B2561D351B1A0073328B /* Main.storyboard */,
-				7559B2591D351B1A0073328B /* Assets.xcassets */,
-				7559B25B1D351B1A0073328B /* LaunchScreen.storyboard */,
-				7559B25E1D351B1A0073328B /* Info.plist */,
+				75C4A6B31F730D3D00C9BFF5 /* App */,
+				75C4A6B21F730D3500C9BFF5 /* ViewController */,
+				75C4A6B11F730D2D00C9BFF5 /* Assets */,
+				75C4A6B01F730D1100C9BFF5 /* SupportingFiles */,
 			);
 			path = Countdowner;
 			sourceTree = "<group>";
@@ -163,9 +161,8 @@
 		7559B2651D351B1A0073328B /* Countdowner WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				7559B2661D351B1A0073328B /* Interface.storyboard */,
-				7559B2691D351B1A0073328B /* Assets.xcassets */,
-				7559B26B1D351B1A0073328B /* Info.plist */,
+				75C4A6B41F730D7000C9BFF5 /* Assets */,
+				75C4A6B51F730D7900C9BFF5 /* SupportingFiles */,
 			);
 			path = "Countdowner WatchKit App";
 			sourceTree = "<group>";
@@ -173,16 +170,16 @@
 		7559B2741D351B1B0073328B /* Countdowner WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				7559B2771D351B1B0073328B /* ExtensionDelegate.swift */,
-				75803E711D352D92000F7B05 /* Controllers */,
-				75803E7A1D353100000F7B05 /* Utils */,
-				7559B2791D351B1B0073328B /* Assets.xcassets */,
-				7559B27B1D351B1B0073328B /* Info.plist */,
+				75C4A6B81F730DDA00C9BFF5 /* App */,
+				75803E711D352D92000F7B05 /* Controller */,
+				75803E7A1D353100000F7B05 /* Util */,
+				75C4A6B61F730DC500C9BFF5 /* Assets */,
+				75C4A6B71F730DCC00C9BFF5 /* SupportingFiles */,
 			);
 			path = "Countdowner WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		75803E711D352D92000F7B05 /* Controllers */ = {
+		75803E711D352D92000F7B05 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				7559B2751D351B1B0073328B /* TomorrowInterfaceController.swift */,
@@ -190,15 +187,90 @@
 				75803E741D352DFF000F7B05 /* NextMonthInterfaceController.swift */,
 				75803E761D352E0B000F7B05 /* NextYearInterfaceController.swift */,
 			);
-			name = Controllers;
+			name = Controller;
 			sourceTree = "<group>";
 		};
-		75803E7A1D353100000F7B05 /* Utils */ = {
+		75803E7A1D353100000F7B05 /* Util */ = {
 			isa = PBXGroup;
 			children = (
 				75803E781D352EA4000F7B05 /* DateHelper.swift */,
 			);
-			name = Utils;
+			name = Util;
+			sourceTree = "<group>";
+		};
+		75C4A6B01F730D1100C9BFF5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7559B25E1D351B1A0073328B /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		75C4A6B11F730D2D00C9BFF5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7559B2561D351B1A0073328B /* Main.storyboard */,
+				7559B2591D351B1A0073328B /* Assets.xcassets */,
+				7559B25B1D351B1A0073328B /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		75C4A6B21F730D3500C9BFF5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7559B2541D351B1A0073328B /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		75C4A6B31F730D3D00C9BFF5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7559B2521D351B1A0073328B /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		75C4A6B41F730D7000C9BFF5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7559B2661D351B1A0073328B /* Interface.storyboard */,
+				7559B2691D351B1A0073328B /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		75C4A6B51F730D7900C9BFF5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7559B26B1D351B1A0073328B /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		75C4A6B61F730DC500C9BFF5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7559B2791D351B1B0073328B /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		75C4A6B71F730DCC00C9BFF5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7559B27B1D351B1B0073328B /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		75C4A6B81F730DDA00C9BFF5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7559B2771D351B1B0073328B /* ExtensionDelegate.swift */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 		87D9C9CFFDDD71E6C1BB9F44 /* Frameworks */ = {
@@ -290,17 +362,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Ivan Magda";
 				TargetAttributes = {
 					7559B24E1D351B1A0073328B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 					7559B2601D351B1A0073328B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 					7559B26F1D351B1B0073328B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -391,13 +466,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Countdowner WatchKit Extension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E637EA7258CE9A40B1E6D24F /* [CP] Embed Pods Frameworks */ = {
@@ -406,9 +484,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Countdowner WatchKit Extension/Pods-Countdowner WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -421,13 +502,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Countdowner WatchKit App-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -512,8 +596,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -558,8 +644,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -578,6 +666,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -593,6 +682,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -608,6 +698,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -618,13 +709,13 @@
 			baseConfigurationReference = B5047CA8299F7F44F4EBB721 /* Pods-Countdowner WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Countdowner_WatchKit_Extension;
 				INFOPLIST_FILE = "Countdowner WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.Countdowner.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -635,13 +726,13 @@
 			baseConfigurationReference = A536F51EBF19920EEF1C6B6B /* Pods-Countdowner WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Countdowner_WatchKit_Extension;
 				INFOPLIST_FILE = "Countdowner WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.Countdowner.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -655,6 +746,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.Countdowner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -666,6 +758,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.Countdowner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
